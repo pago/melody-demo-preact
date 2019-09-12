@@ -1,0 +1,40 @@
+{
+  "name": "melody-template",
+  "version": "0.1.0",
+  "description": "Melody starter template",
+  "main": "src/index.js",
+  "repository": "https://github.com/trivago/melody-template",
+  "author": "trivago",
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --progress --colors --display-chunks"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^8.0.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-plugin-jsx-pragmatic": "^1.0.2",
+    "css-loader": "^3.2.0",
+    "melody-plugin-jsx": "^1.2.1",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.2.0",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "melody-component": "^1.0.0",
+    "melody-hoc": "^1.0.0",
+    "melody-idom": "^1.0.0",
+    "melody-loader": "^1.0.0",
+    "melody-parser": "^1.0.0",
+    "melody-plugin-idom": "^1.0.0",
+    "melody-streams": "^1.2.1",
+    "melody-traverse": "^1.0.0",
+    "melody-types": "^1.0.0",
+    "preact": "^8.5.2",
+    "rxjs": "^6.4.0"
+  }
+}

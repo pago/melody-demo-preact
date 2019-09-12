@@ -1,0 +1,22 @@
+body {
+  background-color: #424383;
+}
+
+.home {
+  text-align: center;
+  color: #fff;
+}
+
+.logo {
+  margin: 20px 0;
+}
+
+.title {
+  padding: 0;
+  margin: 20px 0;
+}
+
+.counter h3 {
+  margin: 0;
+  padding: 10px 0;
+}
