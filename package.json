@@ -34,7 +34,7 @@
     "melody-streams": "^1.2.1",
     "melody-traverse": "^1.0.0",
     "melody-types": "^1.0.0",
-    "preact": "^8.5.2",
+    "preact": "^10.0.0-rc.3",
     "rxjs": "^6.4.0"
   }
 }
