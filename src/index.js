@@ -1,5 +1,5 @@
 import { render } from 'melody-streams';
-import Home from './home/index.twig';
+import Home from './Home.js';
 
 // only for demo purposes
 document.addEventListener('its-alive', console.log);

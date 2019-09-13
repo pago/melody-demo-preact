@@ -1,5 +1,5 @@
 import { createComponent, attachEvent } from 'melody-streams';
-import template from './index.twig';
+import template from './Counter.twig';
 import { merge, of } from 'rxjs';
 import { map, mapTo, scan, startWith, delay, first, tap } from 'rxjs/operators';
 
