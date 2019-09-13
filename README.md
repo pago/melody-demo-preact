@@ -1,5 +1,14 @@
-Shortcomings:
+Supported:
 
-- `ref` in React-land can only be used for a single node
-- currently only `melody-streams` API supported
-- `dispatchCustomEvent` likely problematic (maybe `this._dom`)
+-   `melody-streams`
+-   Melody-style ref handlers that can be shared across many nodes
+-   `dispatchCustomEvent` works
+
+Todo:
+
+-   Implement compatibility layer for `melody-component` style API
+-   Implement compatibility layer for `melody-hoc`
+
+Problems:
+
+-   must rely on Preact internals to get access to DOM nodes
