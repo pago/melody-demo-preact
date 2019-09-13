@@ -1,5 +1,16 @@
 <div class="counter">
   <h3>Counter: {{ count }}</h3>
-  <button ref="{{ incrementButtonRef }}"> + </button>
-  <button ref="{{ decrementButtonRef }}"> - </button>
+  <div>
+    <button ref="{{ incrementButtonRef }}"> + </button>
+    <button ref="{{ decrementButtonRef }}"> - </button>
+  </div>
+  <div>
+  <input type="checkbox" checked="{{ showSecondRow }}" id="showsecond" ref="{{ showSecondRowRef }}"><label for="showsecond">Show alternative buttons</label>
+  </div>
+  {% if showSecondRow %}
+    <div>
+      <button ref="{{ incrementButtonRef }}">Increase</button>
+      <button ref="{{ decrementButtonRef }}">Decrease</button>
+    </div>
+  {% endif %}
 </div>
