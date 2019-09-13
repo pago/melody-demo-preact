@@ -31,7 +31,6 @@
     "melody-loader": "^1.0.0",
     "melody-parser": "^1.0.0",
     "melody-plugin-idom": "^1.0.0",
-    "melody-streams": "^1.2.1",
     "melody-traverse": "^1.0.0",
     "melody-types": "^1.0.0",
     "preact": "^10.0.0-rc.3",

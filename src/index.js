@@ -1,12 +1,9 @@
-import { render } from 'preact';
+import { render } from 'melody-streams';
 import Home from './home/index.twig';
 
 // only for demo purposes
 document.addEventListener('its-alive', console.log);
 
-render(
-    Home({
-        message: 'Welcome to Melody!',
-    }),
-    document.getElementById('root')
-);
+render(document.getElementById('root'), Home, {
+    message: 'Welcome to Melody!',
+});
