@@ -10,6 +10,7 @@ Supported:
 Todo:
 
 -   Implement `melody-redux` API (might just re-export from `redux-preact` or `react-redux` with sufficient webpack/babel config)
+-   `unmountComponentAtNode` is missing in all APIs (no idea how to do that in Preact)
 
 Problems:
 
